@@ -30,8 +30,6 @@ header span {
     padding-top: 60px;
     padding-bottom: 60px;
     min-height: 100vh;
-    width: 1440px;
-    height: 1024px;
 }
 
 .main-title {
@@ -40,7 +38,7 @@ header span {
     font-size: 48px;
     line-height: 100%;
     color: rgba(48, 48, 48, 1);
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 }
 
 .main-text {
@@ -130,6 +128,7 @@ font-size: 16px;
 
 table {
     /* Стили для таблицы */
+    border: 1px solid #95A1BB;
     border-collapse: collapse;
     font-weight: 400;
     font-size: 14px;
@@ -153,7 +152,7 @@ footer {
 .footer-link {
     /* Стили для футера */
     font-weight: 400;
-    font-size: 14;
-    color: #2965f1;;
+    font-size: 14px;
+    color: #2965f1;
     text-decoration: none;
 }
