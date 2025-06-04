@@ -49,7 +49,7 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
+    max-width: 715px;
     height: 508px;
 }
 
@@ -57,7 +57,7 @@ header span {
 .about-section {
     /* Стили для второй секции */
     background-color: #FFF;
-    padding: 60px 0 70px;
+    padding: 100px 0px;
 }
 
 select {
@@ -68,22 +68,22 @@ select {
     font-weight: 400;
     font-size: 16px;
     appearance: none;
-    background: url(./assets/arrow.svg) no-repeat right 15px top 50%;
+    background: url(./assets/arrow.svg) right 15px top 50%;
+    background-repeat: no-repeat;
 }
 
 .section-title {
     /* Стили для заголовков во второй секции */
     font-weight: 700;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style: none;
     list-style-image: url("./assets/list.svg");
-    padding-left: 20px;
-    font-weight: 400;
+    padding: 0px 20px;
     font-size: 16px;
 }
 
@@ -91,7 +91,7 @@ select {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    padding-left: 20px;
+    padding: 0px 20px;
 }
 
 .label {
@@ -122,8 +122,7 @@ font-size: 16px;
 
 .line {
     /* Стили для линии */
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 60px 0;
 }
 
 table {
@@ -154,5 +153,5 @@ footer {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
-    text-decoration: none;
+    text-decoration-line: none;
 }
