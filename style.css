@@ -19,9 +19,9 @@ header {
 
 header span {
     /* Стили для текста в хедере IT-INCUBATOR */
-    font-weight: 700;
     font-size: 20px;
-    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    color: #FFF;
 }
 
 .main-section {
@@ -131,24 +131,29 @@ font-size: 16px;
 table {
     /* Стили для таблицы */
     border-collapse: collapse;
+    font-weight: 400;
+    font-size: 14px;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
     border: 1px solid #95A1BB;
     width: 240px;
-    padding: 15px 0;
+    padding: 12px 15px;
     text-align: left;
 }
 
 footer {
     /* Стили для футера */
     background-color: rgba(163, 167, 255, 0.3);
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 26px;
+    padding-bottom: 26px;
 }
 
 .footer-link {
     /* Стили для футера */
+    font-weight: 400;
+    font-size: 14;
+    color: #2965f1;;
     text-decoration: none;
 }
