@@ -28,17 +28,14 @@ header span {
 .main-section {
     /* Стили для первой секции */
     background-color: rgba(250, 250, 255, 1);
-    padding: 60px 0px;
+    padding: 60px 0;
     min-height: 100vh;
 }
 
 .main-title {
     /* Стили для заголовка в первой секции */
-    color: rgba(48, 48, 48, 1);
-    font-size: 48px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 100%;
+    font-size: 48px;
     margin-bottom: 20px;
 }
 
@@ -50,15 +47,14 @@ header span {
 
 .main-image {
     /* Стили для изображения в первой секции */
-    width: 715px;
-    height: 508px;
+    max-width: 715px;
 }
 
 
 .about-section {
     /* Стили для второй секции */
     background-color: #FFF;
-    padding: 100px 0px;
+    padding: 100px 0;
 }
 
 select {
