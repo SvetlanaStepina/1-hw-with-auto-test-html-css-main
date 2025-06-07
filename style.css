@@ -36,7 +36,7 @@ header span {
     /* Стили для заголовка в первой секции */
     font-weight: 700;
     font-size: 48px;
-    letter-spacing: -0.02em;
+/*     letter-spacing: -0.02em; */
     margin-bottom: 20px;
 }
 
