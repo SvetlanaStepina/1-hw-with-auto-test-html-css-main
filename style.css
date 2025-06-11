@@ -83,14 +83,14 @@ select {
     font-weight: 400;
     font-size: 16px;
     list-style-image: url("./assets/images/list.svg");
-    padding-left: 20px;
+    padding: 0 20px;
 }
 
 .books-list {
     /* Стили для нумерованного списка во второй секции */
     font-weight: 400;
     font-size: 16px;
-    margin-left: 20px;
+    padding: 0 20px;
 }
 
 .label {
@@ -109,7 +109,7 @@ font-size: 16px;
     background: rgba(255, 255, 255, 0);
     padding: 8px 12px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .btn {
